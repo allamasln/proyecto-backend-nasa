@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "638b6ec304fc7fc4f92aa303"
+  },
+  "name": "Albertu Henriques 2",
+  "nickname": "Malaga",
+  "email": "albertu.enriques@thebridgeschool.es",
+  "picture": "albertu.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638c8432d834ed5c309150b6"
+  },
+  "name": "pepe",
+  "email": "neiva2@thebridgeschool.es",
+  "picture": "anei.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0,
+  "nickname": "dddddf"
+},{
+  "_id": {
+    "$oid": "638c8451d834ed5c309150b8"
+  },
+  "name": "neiva",
+  "email": "neiva@thebridgeschool.es",
+  "picture": "albertu.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0,
+  "nickname": "ffff"
+},{
+  "_id": {
+    "$oid": "638c8530bd6e4f6e21f2dc5e"
+  },
+  "name": "neiva 1",
+  "email": "neiva1@thebridgeschool.es",
+  "picture": "anei.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0,
+  "nickname": "ffff"
+},{
+  "_id": {
+    "$oid": "638c8873b12b9a2b9ba8d7c2"
+  },
+  "name": "amparoooooo 1",
+  "email": "pedro@thebridgeschool.es",
+  "picture": "albertu.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0,
+  "nickname": "ffff"
+},{
+  "_id": {
+    "$oid": "638cb98f5288681c33c2906d"
+  },
+  "name": "maria",
+  "nickname": "dddddf",
+  "email": "maria@thebridgeschool.es",
+  "picture": "maria.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638cbe03e2b83b6a8b3d821b"
+  },
+  "name": "felipeee",
+  "nickname": "ddddeeeeedf",
+  "email": "felipeee@thebridgeschool.es",
+  "picture": "maria.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [
+    "82ea90a3cb0eae19fe5c1f95",
+    "13ea90a3cb0eae19fe5c1f95",
+    "24ea90a3cb0eae19fe5c1f95"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638cbe62eeb769e7f4f625da"
+  },
+  "name": "editado",
+  "nickname": "ddddeeeeedf",
+  "email": "nuevo@thebridgeschool.es",
+  "picture": "maria.jpg",
+  "affiliatedNumber": "3",
+  "affiliationDate": {
+    "$date": {
+      "$numberLong": "1580770800000"
+    }
+  },
+  "occupation": "TA FS FT",
+  "birthdate": "1992-02-04",
+  "neasDiscovered": [
+    "82ea90a3cb0eae19fe5c1f95",
+    "13ea90a3cb0eae19fe5c1f95",
+    "24ea90a3cb0eae19fe5c1f95"
+  ],
+  "__v": 0
+}]
