@@ -1,21 +1,21 @@
-const dbLanding = require('./router/dblanding');
-const dbNeas = require('./router/dbNeas');
-const dbUser = require('./router/dbUser');
-const express = require('express');
+const express = require("express");
+require("dotenv").config();
+const dbLanding = require("./router/dbLanding");
+const dbNeas = require("./router/dbNeas");
+const dbUser = require("./router/dbUser");
 
-require('dotenv').config()
+const app = express();
 
-const app = express()
+require("./db")();
 
-require('./db')()
+app.use(express.json());
 
-app.use(express.json()) 
+app.use("/landing", dbLanding);
+app.use("/neas", dbNeas);
+app.use("/user", dbUser);
 
-app.use('/landing', dbLanding);
-app.use('/neas', dbNeas);
-app.use('/user', dbUser)
+const port = process.env.PORT || 3000;
 
-
-const port = process.env.PORT || 3000
-
-app.listen(port, () => console.log(`Servidor corriendo en http://localhost:${port}`))
+app.listen(port, () =>
+  console.log(`Servidor corriendo en http://localhost:${port}`)
+);
