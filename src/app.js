@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 require("dotenv").config();
 const dbLanding = require("./router/dbLanding");
 const dbNeas = require("./router/dbNeas");
@@ -7,7 +8,7 @@ const dbUser = require("./router/dbUser");
 const app = express();
 
 require("./db")();
-
+app.use(cors());
 app.use(express.json());
 
 app.use("/landing", dbLanding);
